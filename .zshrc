@@ -215,4 +215,8 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
   exec Hyprland
 }
 
-
+# clipboard cleaner
+function clear_clip
+{
+ for i in $(cliphist list | awk -F. '{ print $2 }'); do cliphist delete-query "$i"; done
+}
