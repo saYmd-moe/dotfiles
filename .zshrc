@@ -153,3 +153,4 @@ source /usr/share/autojump/autojump.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+export dotfiles='~/.zshrc ~/.wakatime.cfg ~/.config/waybar ~/.config/rofi ~/.config/swaylock ~/.config/vifm ~/.config/hypr ~/.config/kitty'
