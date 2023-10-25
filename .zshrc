@@ -189,7 +189,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
   # 解决QT程序缩放问题
   export QT_AUTO_SCREEN_SCALE_FACTOR=1
   # QT使用wayland和gtk
-  export QT_QPA_PLATFORM="wayland;xcb"
+  export QT_QPA_PLATFORM="wayland"
   export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
   # 使用qt5ct软件配置QT程序外观
   export QT_QPA_PLATFORMTHEME=qt5ct
