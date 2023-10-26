@@ -1,6 +1,9 @@
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
+" 设置主题
+":colorscheme molokai
+
 " 检测文件类型并开启对应插件
 filetype on
 filetype plugin on
