@@ -8,7 +8,7 @@
     "height": 50,
     "modules-left": [
         "clock",
-        "custom/weather",
+        "cpu",
         "hyprland/workspaces"
     ],
     "modules-center": [
@@ -45,6 +45,11 @@
             "default": ""
         },
         "sort-by-number": true
+    },
+    "cpu": {
+        "interval": 1,
+        "format": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% ",
+        "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
     },
     "wlr/workspaces": {
         "disable-scroll": true,
