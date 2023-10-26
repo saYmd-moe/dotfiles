@@ -148,6 +148,8 @@ LANG='zh_CN.UTF-8'
 alias vi=vim
 EDITOR='vim'
 
+alias npm=pnpm
+
 # Activate plugins for zsh
 source /usr/share/zsh/plugins/zsh-sudo/sudo.plugin.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -221,3 +223,11 @@ function clear_clip
 {
  for i in $(cliphist list | awk -F. '{ print $2 }'); do cliphist delete-query "$i"; done
 }
+
+# pnpm
+export PNPM_HOME="/home/liuym/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
