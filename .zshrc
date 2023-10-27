@@ -193,15 +193,16 @@ function add_config
 			~/.config/tofi \
 			~/.config/vifm \
 			~/.config/hypr \
-			~/.zshrc \
 			~/.config/kitty \
 			~/.config/waybar \
-			~/.wakatime.cfg \
 			~/.config/swaylock \
 			~/.config/mako \
-			~/.vimrc ~/.vim \
 			~/.config/gtk-3.0 \
-			~/.config/gtk-4.0
+			~/.config/gtk-4.0 \
+			~/.vimrc ~/.vim \
+			~/.wakatime.cfg \
+			~/.gtkrc-2.0 \
+			~/.zshrc ~/.zim
 	config status
 
 }
@@ -218,7 +219,7 @@ function add_config
   # 解决QT程序缩放问题
   export QT_AUTO_SCREEN_SCALE_FACTOR=1
   # QT使用wayland和gtk
-  export QT_QPA_PLATFORM="wayland"
+  export QT_QPA_PLATFORM="wayland,xcb"
   export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
   # 使用qt5ct软件配置QT程序外观
   export QT_QPA_PLATFORMTHEME=qt5ct
@@ -228,7 +229,7 @@ function add_config
   # 解决java程序启动黑屏错误
   export _JAVA_AWT_WM_NONEREPARENTING=1
   # GTK后端为 wayland和x11,优先wayland
-  export GDK_BACKEND="wayland,x11"
+  export GDK_BACKEND="wayland"
 
  }
 
