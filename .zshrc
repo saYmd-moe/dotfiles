@@ -138,6 +138,10 @@ unset key
 
 # Created by liuym for 5.9
 
+# PATH
+export PATH=${HOME}/.local/bin:${PATH}
+
+
 # Some terminal config
 export http_proxy=http://192.168.1.5:7893
 export https_proxy=http://192.168.1.5:7893
@@ -180,6 +184,26 @@ fi
 
 # .dotfile
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+function add_config
+{
+	config add \
+			~/.config/tofi \
+			~/.config/vifm \
+			~/.config/hypr \
+			~/.zshrc \
+			~/.config/kitty \
+			~/.config/waybar \
+			~/.wakatime.cfg \
+			~/.config/swaylock \
+			~/.config/mako \
+			~/.vimrc ~/.vim \
+			~/.config/gtk-3.0 \
+			~/.config/gtk-4.0
+	config status
+
+}
+
 
 
 # functions to start Hyprland
