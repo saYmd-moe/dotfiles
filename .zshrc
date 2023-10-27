@@ -202,7 +202,7 @@ function add_config
 			~/.vimrc ~/.vim \
 			~/.wakatime.cfg \
 			~/.gtkrc-2.0 \
-			~/.zshrc ~/.zim
+			~/.zshrc
 	config status
 
 }
