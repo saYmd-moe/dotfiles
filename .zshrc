@@ -147,6 +147,8 @@ export http_proxy=http://192.168.1.5:7893
 export https_proxy=http://192.168.1.5:7893
 export all_proxy=http://192.168.1.5:7893
 
+export OMP_NUM_THREADS=16
+
 # Set language & editor
 LANG='zh_CN.UTF-8'
 alias vi=vim
