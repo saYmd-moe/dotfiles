@@ -141,9 +141,10 @@ unset key
 # User custom
 export EDITOR='vim'
 
-export http_proxy='http://192.168.1.5:7893'
-export https_proxy='http://192.168.1.5:7893'
-export all_proxy='http://192.168.1.5:7893'
+export LANG='zh_CN.UTF-8'
+export http_proxy='http://127.0.0.1:7890'
+export https_proxy='http://127.0.0.1:7890'
+export all_proxy='http://127.0.0.1:7890'
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
