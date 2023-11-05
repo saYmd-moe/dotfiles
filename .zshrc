@@ -155,6 +155,7 @@ alias vi=vim
 EDITOR='vim'
 
 alias npm=pnpm
+alias kssh="kitty +kitten ssh"
 
 # Activate plugins for zsh
 source /usr/share/zsh/plugins/zsh-sudo/sudo.plugin.zsh
