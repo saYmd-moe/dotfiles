@@ -191,6 +191,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 function add_config
 {
 	config add \
+			~/.config/go-musicfox/go-musicfox.ini \
 			~/.config/tofi \
 			~/.config/vifm \
 			~/.config/hypr \
