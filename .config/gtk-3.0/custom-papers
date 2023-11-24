@@ -1,0 +1,21 @@
+[Paper0]
+Name=A4 plus
+DisplayName=A4 plus
+Width=210
+Height=2970
+MarginTop=6.3499999999999996
+MarginBottom=14.224
+MarginLeft=6.3499999999999996
+MarginRight=6.3499999999999996
+Orientation=portrait
+
+[Paper1]
+Name=自定义大小 1
+DisplayName=自定义大小 1
+Width=210
+Height=297
+MarginTop=6.3499999999999996
+MarginBottom=14.224
+MarginLeft=6.3499999999999996
+MarginRight=6.3499999999999996
+Orientation=portrait
