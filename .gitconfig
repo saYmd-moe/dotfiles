@@ -1,0 +1,15 @@
+[user]
+	name = saymd-moe
+	email = liuymyz@foxmail.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[init]
+	defaultBranch = main
+[http]
+	proxy = http://127.0.0.1:2081
+[https]
+	proxy = http://127.0.0.1:2081
